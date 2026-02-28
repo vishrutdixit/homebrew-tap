@@ -1,28 +1,28 @@
 class Bonk < Formula
   desc "LLM-powered spaced repetition CLI for technical interview prep"
   homepage "https://github.com/vishrutdixit/bonk"
-  version "0.3.3"
+  version "0.3.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/vishrutdixit/bonk/releases/download/v0.3.3/bonk-darwin-arm64.tar.gz"
-      sha256 "d3aee3eb3b7537ab41ab0df8706b3440b08b6a4caddc73cfb24e0e6f56bdb360"
+      url "https://github.com/vishrutdixit/bonk/releases/download/v0.3.4/bonk-darwin-arm64.tar.gz"
+      sha256 "de08b6176a2078443c410deacbc08499597e743216faf186466b46c4aa72c66b"
     end
     on_intel do
-      url "https://github.com/vishrutdixit/bonk/releases/download/v0.3.3/bonk-darwin-amd64.tar.gz"
-      sha256 "dc92af06eb8f9f86d8b0ef1ee714ffa7c4877e833632307e5ed549cec2869cc3"
+      url "https://github.com/vishrutdixit/bonk/releases/download/v0.3.4/bonk-darwin-amd64.tar.gz"
+      sha256 "547af9a119f4160085d8c32142005ac4466bfb14b7a9177e01daaaa683ac0095"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/vishrutdixit/bonk/releases/download/v0.3.3/bonk-linux-arm64.tar.gz"
-      sha256 "1683e264e7750e8ef1750f452389207cf354853b1980a88ed51ef0d1fd3e82d2"
+      url "https://github.com/vishrutdixit/bonk/releases/download/v0.3.4/bonk-linux-arm64.tar.gz"
+      sha256 "048384b6b0f329100da5faaccc8a44b6d754f462c68a2559ff2fe5682d613ad4"
     end
     on_intel do
-      url "https://github.com/vishrutdixit/bonk/releases/download/v0.3.3/bonk-linux-amd64.tar.gz"
-      sha256 "ff0bde82929b4da63dfa9aacc38fc59cf0820a339bc40a76afb0b177cf434637"
+      url "https://github.com/vishrutdixit/bonk/releases/download/v0.3.4/bonk-linux-amd64.tar.gz"
+      sha256 "e5bded70b207061434cfc2dba58693ada1b2165dc9645ecfdcfc7cce3fa59cc7"
     end
   end
 
